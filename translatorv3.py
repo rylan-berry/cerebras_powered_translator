@@ -27,7 +27,10 @@ else:
     client = Cerebras(api_key=cerebras_api_key)
     print("Cerebras client initialized.")
 
-target_lang = "English"
+target_lang = input("Target Language: ")
+if len(target_lang) == 0:
+    target_lang = "English" #default to english
+
 
 conversation_history = [
     {
