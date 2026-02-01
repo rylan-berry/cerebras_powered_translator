@@ -32,3 +32,5 @@ Before running the Python script on your personal machine, ensure you have the f
       ```
 
 *NOTE: This early version is most preformative when hearing English and translating to other languages. Current theory is that the transcriber isn't as optimized for other languages as it is for English.*
+
+*IMPORTANT: During testing, some systems take longer to close out of the program during exit. It's likely due to CUDA use taking longer to remove the model from memory, but rest assured it will clear out after a couple of minutes.*
