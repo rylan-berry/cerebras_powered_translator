@@ -30,3 +30,5 @@ Before running the Python script on your personal machine, ensure you have the f
       set CEREBRAS_API_KEY=your_api_key_here
       # For permanent setting, use System Properties -> Environment Variables
       ```
+
+*NOTE: This early version is most preformative when hearing English and translating to other languages. Current theory is that the transcriber isn't as optimized for other languages as it is for English.*
