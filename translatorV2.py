@@ -25,7 +25,7 @@ if not cerebras_api_key:
 else:
     client = Cerebras(api_key=cerebras_api_key)
 
-target_lang = "Hindi"
+target_lang = "English"
 conversation_history = [
     {
         "role": "system",
